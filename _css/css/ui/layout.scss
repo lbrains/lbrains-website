@@ -1,0 +1,29 @@
+.wrapper{
+	width:75%;
+	margin: auto;
+	border: 1px dotted #cccccc;
+}
+
+.bheader{
+	@extend .grid;
+	//border: 1px solid #00ff00;
+}
+	.bheader__logo{
+		@extend .grid__item;
+		@extend .one-third;
+		//border: 1px dotted #cccccc;
+	}
+
+	.bheader__main-nav{
+		@extend .grid__item;
+		@extend .two-thirds;
+		ul{
+			@extend .nav;
+		}
+	}
+
+.bbody{
+	border: 1px solid #ff0000;
+}
+
+
